@@ -1,0 +1,7 @@
+sname=input("enter name")
+id=input("enter id")
+marks=map(int,input("enter marks").split())
+total=sum(marks)
+print("Total=",total)
+print("AVg=",total/3)
+print(sname,'\n',id,'\n', marks ,'\n')
